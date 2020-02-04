@@ -163,17 +163,17 @@ var scenario = {
     buttons: [["Continue", "advanceTo(scenario.christmas)"]]
   },
   christmas: {
-    image: "media/christmas-gifts.png",
+    image: "media/christmas.jpg",
     text: "Christmas is coming up, will you be buying your loved ones gifts?",
     buttons: [["Yes", "advanceTo(scenario.christmasyes)"], ["No", "advanceTo(scenario.christmasno)"]]
   },
   christmasyes: {
-    image: "media/christmas-gifts.png",
+    image: "media/christmas.jpg",
     text: "All your family members know you wont he lottery ticket. So they made you feel obligated to buy them gifts. You spent a total of $5,000.",
     buttons: [["Continue", "advanceTo(scenario.newyears)"]]
   },
   christmasno: {
-    image: "media/christmas-gifts.png",
+    image: "media/christmas.jpg",
     text: "You saved $5,000 on buying gifts, but family members are upset and assume you are selfish.",
     buttons: [["Continue", "advanceTo(scenario.newyears)"], ]
   },
@@ -194,7 +194,7 @@ var scenario = {
   },
   restaurant: {
     image: "media/mom-restaurant.jpg",
-    text: "Your mom is thinking of opening a restaurant in the local area, but she needs help with money. With the remaining amount of money you have left, she will be able to open up a restaurant. On top of that, she will pay you back twice the amount of money you gave her, in the span of 2 years. Will you help your mom?",
+    text: "Your mom is thinking of opening a restaurant in the local area, but she needs help with money. With the remaining amount of money you have left, she will be able to open up a restaurant. Will you help your mom?",
     buttons: [["Yes", "advanceTo(scenario.restaurantyes)"], ["No", "advanceTo(scenario.restaurantno)"]]
   },
   restaurantyes: {
