@@ -135,7 +135,7 @@ var scenario = {
   cat: {
     image: "media/serval-cat.jpg",
     text: "One of your friends has an investment idea to get a Serval cat to breed with his Savannah cat. The cost of it will be $5,000. Are you up to make some extra money?",
-    buttons: [["Yes", "advanceTo(scenario.catyes)"], ["No", "advanceTo(scenario.catno"]]
+    buttons: [["Yes", "advanceTo(scenario.catyes)"], ["No", "advanceTo(scenario.catno)"]]
   },
   catyes: {
     image: "media/serval-cat.jpg",
